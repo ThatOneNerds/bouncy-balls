@@ -1,0 +1,33 @@
+:root {
+    --color1: #fefae0;
+    --color2: #ccd5ae;
+    --color3: #d4a373;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+
+h1 {
+    color: var(--color3);
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.input { 
+    margin: 50px;
+}
+
+body {
+    background-color: var(--color1);
+}
+
+canvas {
+    background-color: var(--color2);
+}
